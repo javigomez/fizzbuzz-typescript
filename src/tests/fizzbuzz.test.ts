@@ -25,4 +25,7 @@ describe('fizzbuzz', () => {
 	it('should return fizzbuzz when passing any number divisible by 15', () => {
 		expect(fizzbuzz(30)).toBe('fizzbuzz');
 	});
+	it('should return number when passing any number not divisible by 3 or 5', () => {
+		expect(fizzbuzz(31)).toBe('31');
+	});
 });
