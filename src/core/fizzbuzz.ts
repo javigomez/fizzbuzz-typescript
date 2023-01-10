@@ -1,2 +1,1 @@
-export const fizzbuzz = (number:number) =>
-    null;
+export const fizzbuzz = (number:number) => (number).toString();
