@@ -19,4 +19,7 @@ describe('fizzbuzz', () => {
 	it('should return fizz when passing any number divisible by 3', () => {
 		expect(fizzbuzz(6)).toBe('fizz');
 	});
+	it('should return buzz when passing any number divisible by 5', () => {
+		expect(fizzbuzz(10)).toBe('buzz');
+	});
 });
