@@ -13,4 +13,10 @@ describe('fizzbuzz', () => {
 	it('should return fizz when passing 3', () => {
 		expect(fizzbuzz(5)).toBe('buzz');
 	});
+	it('should return fizzbuzz when passing 15', () => {
+		expect(fizzbuzz(15)).toBe('fizzbuzz');
+	});
+	it('should return fizz when passing any number divisible by 3', () => {
+		expect(fizzbuzz(6)).toBe('fizz');
+	});
 });
